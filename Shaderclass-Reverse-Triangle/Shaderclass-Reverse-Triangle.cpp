@@ -5,7 +5,6 @@
 // Include GLEW
 #include <GL/glew.h>
 
-//
 #include "Shader.h"
 
 // Include GLFW
@@ -31,7 +30,7 @@ int main(void)
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
 	// Tạo 1 cửa sổ GLFWwindow 
-	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Bai thuc hanh so 3 - class shader", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "class shader", nullptr, nullptr);
 	if (window == nullptr)
 	{
 		std::cout << "Failed to create GLFW window" << std::endl;
@@ -53,10 +52,10 @@ int main(void)
 	 // Define the viewport dimensions
 	int width, height;
 	glfwGetFramebufferSize(window, &width, &height);    // lấy kích thước framebuffer   (chú ý)
-	glViewport(0, 0, width, height);;
+	glViewport(0, 0, width, height);
 
 
-	Shader ourShader("vShader_b3.vertex", "fShader_b3 .frag");
+	Shader ourShader("vShader_reverse.vertex","fShader_reverse.frag");
 
 
 	//bước 1: khai báo vertex input (vertex data)
