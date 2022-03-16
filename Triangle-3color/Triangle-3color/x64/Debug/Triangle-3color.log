@@ -1,2 +1,3 @@
 ﻿  Triangle-3color.cpp
-  Triangle-3color.vcxproj -> D:\Đồ hoạ 1\Practice\Triangle-3color\x64\Debug\Triangle-3color.exe
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Triangle-3color.vcxproj -> D:\Đồ hoạ 1\Paractices\Triangle-3color\x64\Debug\Triangle-3color.exe

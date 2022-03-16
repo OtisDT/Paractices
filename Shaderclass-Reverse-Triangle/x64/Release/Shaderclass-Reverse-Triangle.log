@@ -1,9 +1,9 @@
-﻿  Shaderclass-Reverse-Triangle.cpp
-D:\Đồ hoạ 1\Paractices\Shaderclass-Reverse-Triangle\Shader.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\Đồ hoạ 1\Paractices\Shaderclass-Reverse-Triangle\Shader.h(45,34): warning C4101: 'e': unreferenced local variable
+﻿  Shader.cpp
+  Shaderclass-Reverse-Triangle.cpp
+D:\Graphic-computer\Paractices\Shaderclass-Reverse-Triangle\Shader.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Graphic-computer\Paractices\Shaderclass-Reverse-Triangle\Shader.h(45,34): warning C4101: 'e': unreferenced local variable
   Generating code
-  0 of 204 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 204 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  Shaderclass-Reverse-Triangle.vcxproj -> D:\Đồ hoạ 1\Paractices\Shaderclass-Reverse-Triangle\x64\Release\Shaderclass-Reverse-Triangle.exe
+  Shaderclass-Reverse-Triangle.vcxproj -> D:\Graphic-computer\Paractices\Shaderclass-Reverse-Triangle\x64\Release\Shaderclass-Reverse-Triangle.exe
