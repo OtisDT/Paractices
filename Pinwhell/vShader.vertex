@@ -10,6 +10,6 @@ uniform mat4 transform;   //ma tranh chuyen tri ( bao gom: xoay, dịch chuyển
 void main()
 {
 	gl_Position=transform*vec4(aPos,1.0);  ///gl_Position giá trị đỉnh đầu ra của vertex shader
-	ourColor=vec3(0.0f,0.0f,1.0f);
+	ourColor=aColor;
 ;	TexCoord=aTexCoord;
 }   
